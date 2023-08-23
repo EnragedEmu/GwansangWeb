@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['live', 'spoof']
+
+roboflow:
+  workspace: artem-razdyakonov-zgktj
+  project: liveness_cam
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/artem-razdyakonov-zgktj/liveness_cam/dataset/3
